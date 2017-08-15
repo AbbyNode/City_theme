@@ -1,48 +1,68 @@
 fileFormatVersion: 2
-guid: 874e6853a9c036946a11c32c50682598
-timeCreated: 1502729420
+guid: 2fbaccc6fd5f16447a3d34ba7fc5a880
+timeCreated: 1502836104
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: stock_ninja_0
-    21300002: stock_ninja_1
-    21300004: stock_ninja_2
-    21300006: stock_ninja_3
-    21300008: stock_ninja_4
-    21300010: stock_ninja_5
-    21300012: stock_ninja_6
-    21300014: stock_ninja_7
-    21300016: stock_ninja_8
-    21300018: stock_ninja_9
-    21300020: stock_ninja_10
-    21300022: stock_ninja_11
-    21300024: stock_ninja_12
-    21300026: stock_ninja_13
-    21300028: stock_ninja_14
-    21300030: stock_ninja_15
-    21300032: stock_ninja_16
-    21300034: stock_ninja_17
-    21300036: stock_ninja_18
-    21300038: stock_ninja_19
-    21300040: stock_ninja_20
-    21300042: stock_ninja_21
-    21300044: stock_ninja_22
-    21300046: stock_ninja_23
-    21300048: stock_ninja_24
-    21300050: stock_ninja_25
-    21300052: stock_ninja_26
-    21300054: stock_ninja_27
-    21300056: stock_ninja_28
-    21300058: stock_ninja_29
-    21300060: stock_ninja_30
-    21300062: stock_ninja_31
-    21300064: stock_ninja_32
-    21300066: stock_ninja_33
-    21300068: stock_ninja_34
-    21300070: stock_ninja_35
-    21300072: stock_ninja_36
-    21300074: stock_ninja_37
-    21300076: stock_ninja_38
+    21300000: stock_ninja_3_0
+    21300002: stock_ninja_3_1
+    21300004: stock_ninja_3_2
+    21300006: stock_ninja_3_3
+    21300008: stock_ninja_3_4
+    21300010: stock_ninja_3_5
+    21300012: stock_ninja_3_6
+    21300014: stock_ninja_3_7
+    21300016: stock_ninja_3_8
+    21300018: stock_ninja_3_9
+    21300020: stock_ninja_3_10
+    21300022: stock_ninja_3_11
+    21300024: stock_ninja_3_12
+    21300026: stock_ninja_3_13
+    21300028: stock_ninja_3_14
+    21300030: stock_ninja_3_15
+    21300032: stock_ninja_3_16
+    21300034: stock_ninja_3_17
+    21300036: stock_ninja_3_18
+    21300038: stock_ninja_3_19
+    21300040: stock_ninja_3_20
+    21300042: stock_ninja_3_21
+    21300044: stock_ninja_3_22
+    21300046: stock_ninja_3_23
+    21300048: stock_ninja_3_24
+    21300050: stock_ninja_3_25
+    21300052: stock_ninja_3_26
+    21300054: stock_ninja_3_27
+    21300056: stock_ninja_3_28
+    21300058: stock_ninja_3_29
+    21300060: stock_ninja_3_30
+    21300062: stock_ninja_3_31
+    21300064: stock_ninja_3_32
+    21300066: stock_ninja_3_33
+    21300068: stock_ninja_3_34
+    21300070: stock_ninja_3_35
+    21300072: stock_ninja_3_36
+    21300074: stock_ninja_3_37
+    21300076: stock_ninja_3_38
+    21300078: stock_ninja_3_39
+    21300080: stock_ninja_3_40
+    21300082: stock_ninja_3_41
+    21300084: stock_ninja_3_42
+    21300086: stock_ninja_3_43
+    21300088: stock_ninja_3_44
+    21300090: stock_ninja_3_45
+    21300092: stock_ninja_3_46
+    21300094: stock_ninja_3_47
+    21300096: stock_ninja_3_48
+    21300098: stock_ninja_3_49
+    21300100: stock_ninja_3_50
+    21300102: stock_ninja_3_51
+    21300104: stock_ninja_3_52
+    21300106: stock_ninja_3_53
+    21300108: stock_ninja_3_54
+    21300110: stock_ninja_3_55
+    21300112: stock_ninja_3_56
+    21300114: stock_ninja_3_57
+    21300116: stock_ninja_3_58
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -109,509 +129,509 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: stock_ninja_0
+      name: stock_ninja_3_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 209
-        width: 26
-        height: 47
+        x: 52
+        y: 664
+        width: 94
+        height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_1
+      name: stock_ninja_3_1
       rect:
         serializedVersion: 2
-        x: 49
-        y: 209
-        width: 26
-        height: 47
+        x: 152
+        y: 664
+        width: 89
+        height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_2
+      name: stock_ninja_3_2
       rect:
         serializedVersion: 2
-        x: 79
-        y: 209
-        width: 25
-        height: 47
+        x: 248
+        y: 664
+        width: 86
+        height: 159
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3
-      rect:
-        serializedVersion: 2
-        x: 108
-        y: 209
-        width: 26
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: stock_ninja_4
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 209
-        width: 26
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: stock_ninja_5
-      rect:
-        serializedVersion: 2
-        x: 180
-        y: 209
-        width: 26
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: stock_ninja_6
-      rect:
-        serializedVersion: 2
-        x: 213
-        y: 209
-        width: 26
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: stock_ninja_7
-      rect:
-        serializedVersion: 2
-        x: 254
-        y: 209
-        width: 47
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: stock_ninja_8
-      rect:
-        serializedVersion: 2
-        x: 312
-        y: 209
-        width: 47
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: stock_ninja_9
-      rect:
-        serializedVersion: 2
-        x: 371
-        y: 209
-        width: 47
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: stock_ninja_10
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 153
-        width: 41
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: stock_ninja_11
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 153
-        width: 41
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: stock_ninja_12
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 153
-        width: 41
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: stock_ninja_13
-      rect:
-        serializedVersion: 2
-        x: 162
-        y: 153
-        width: 41
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: stock_ninja_14
-      rect:
-        serializedVersion: 2
-        x: 209
-        y: 153
-        width: 41
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: stock_ninja_15
-      rect:
-        serializedVersion: 2
-        x: 258
-        y: 153
-        width: 41
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: stock_ninja_16
-      rect:
-        serializedVersion: 2
-        x: 314
-        y: 153
-        width: 29
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: stock_ninja_17
-      rect:
-        serializedVersion: 2
-        x: 351
-        y: 153
-        width: 26
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: stock_ninja_18
-      rect:
-        serializedVersion: 2
-        x: 389
-        y: 153
-        width: 28
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: stock_ninja_19
-      rect:
-        serializedVersion: 2
-        x: 49
-        y: 89
-        width: 36
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: stock_ninja_20
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 108
-        width: 34
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: stock_ninja_21
-      rect:
-        serializedVersion: 2
-        x: 140
-        y: 119
-        width: 39
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: stock_ninja_22
-      rect:
-        serializedVersion: 2
-        x: 186
-        y: 106
-        width: 27
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: stock_ninja_23
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 119
-        width: 39
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: stock_ninja_24
-      rect:
-        serializedVersion: 2
-        x: 269
-        y: 108
-        width: 35
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: stock_ninja_25
-      rect:
-        serializedVersion: 2
-        x: 307
-        y: 97
-        width: 40
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: stock_ninja_26
-      rect:
-        serializedVersion: 2
-        x: 389
-        y: 82
-        width: 29
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: stock_ninja_27
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 76
-        width: 26
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: stock_ninja_28
+      name: stock_ninja_3_3
       rect:
         serializedVersion: 2
         x: 340
-        y: 76
-        width: 38
-        height: 40
+        y: 664
+        width: 93
+        height: 159
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_29
+      name: stock_ninja_3_4
       rect:
         serializedVersion: 2
-        x: 9
-        y: 12
-        width: 26
-        height: 47
+        x: 462
+        y: 664
+        width: 94
+        height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_30
+      name: stock_ninja_3_5
       rect:
         serializedVersion: 2
-        x: 42
-        y: 12
-        width: 38
-        height: 48
+        x: 573
+        y: 663
+        width: 91
+        height: 139
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_31
+      name: stock_ninja_3_6
       rect:
         serializedVersion: 2
-        x: 83
-        y: 12
-        width: 38
-        height: 48
+        x: 676
+        y: 664
+        width: 91
+        height: 138
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_32
+      name: stock_ninja_3_8
       rect:
         serializedVersion: 2
-        x: 124
-        y: 12
-        width: 39
-        height: 48
+        x: 811
+        y: 660
+        width: 157
+        height: 122
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_33
+      name: stock_ninja_3_9
       rect:
         serializedVersion: 2
-        x: 167
-        y: 12
-        width: 26
-        height: 39
+        x: 994
+        y: 667
+        width: 158
+        height: 116
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_34
+      name: stock_ninja_3_10
       rect:
         serializedVersion: 2
-        x: 203
-        y: 12
-        width: 37
-        height: 48
+        x: 1182
+        y: 659
+        width: 160
+        height: 123
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_35
+      name: stock_ninja_3_23
       rect:
         serializedVersion: 2
-        x: 247
-        y: 12
-        width: 38
-        height: 46
+        x: 52
+        y: 486
+        width: 142
+        height: 146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_36
+      name: stock_ninja_3_24
       rect:
         serializedVersion: 2
-        x: 288
-        y: 12
-        width: 37
-        height: 39
+        x: 206
+        y: 484
+        width: 142
+        height: 148
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_37
+      name: stock_ninja_3_25
       rect:
         serializedVersion: 2
-        x: 334
-        y: 12
-        width: 45
-        height: 27
+        x: 356
+        y: 482
+        width: 142
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_38
+      name: stock_ninja_3_26
       rect:
         serializedVersion: 2
-        x: 383
-        y: 12
-        width: 47
-        height: 23
+        x: 514
+        y: 484
+        width: 140
+        height: 148
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock_ninja_3_27
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 484
+        width: 138
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock_ninja_3_28
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 484
+        width: 142
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock_ninja_3_30
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 484
+        width: 96
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock_ninja_3_32
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 484
+        width: 99
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock_ninja_3_34
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 484
+        width: 99
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock_ninja_3_35
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 234
+        width: 93
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock_ninja_3_36
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 280
+        width: 127
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock_ninja_3_38
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 338
+        width: 114
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock_ninja_3_39
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 376
+        width: 131
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock_ninja_3_40
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 333
+        width: 98
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock_ninja_3_41
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 374
+        width: 134
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock_ninja_3_42
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 340
+        width: 124
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock_ninja_3_43
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 306
+        width: 130
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock_ninja_3_44
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 238
+        width: 137
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock_ninja_3_45
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 258
+        width: 102
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock_ninja_3_47
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 32
+        width: 90
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock_ninja_3_48
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 35
+        width: 127
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock_ninja_3_49
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 34
+        width: 135
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock_ninja_3_50
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 34
+        width: 131
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock_ninja_3_51
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 32
+        width: 94
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock_ninja_3_52
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 34
+        width: 130
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock_ninja_3_53
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 32
+        width: 128
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock_ninja_3_54
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 32
+        width: 126
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock_ninja_3_55
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 32
+        width: 151
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: stock_ninja_3_57
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 32
+        width: 158
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
