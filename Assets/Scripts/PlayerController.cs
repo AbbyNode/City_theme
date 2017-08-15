@@ -39,13 +39,13 @@ public class PlayerController : MonoBehaviour {
 		// The player is grounded if a linecast to the groundcheck position hits anything on the ground layer.
 		grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
 		touchingWall = Physics2D.OverlapCircle(wallCheck.position, wallTouchRadius, whatIsWall);
+
 		anim.SetBool("Ground", grounded);
 
 		if (grounded) {
 			doubleJump = false;
 			touchingWall = false;
 		}
-
 		if (touchingWall) {
 			// grounded = false;
 			doubleJump = true;
@@ -54,9 +54,7 @@ public class PlayerController : MonoBehaviour {
 		anim.SetFloat("vSpeed", rBody.velocity.y);
 
 		float move = Input.GetAxis("Horizontal");
-
 		anim.SetFloat("Speed", Mathf.Abs(move));
-
 		rBody.velocity = new Vector2(move * maxSpeed, rBody.velocity.y);
 
 		// If the input is moving the player right and the player is facing left...
@@ -71,23 +69,28 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	void Update() {
-		// If the jump button is pressed and the player is grounded then the player should jump.
-		if ((grounded || !doubleJump) && Input.GetButtonDown("Jump")) {
-			anim.SetBool("Ground", false);
-			rBody.AddForce(new Vector2(0, jumpForce));
-
-			if (!doubleJump && !grounded) {
+		if (Input.GetButtonDown("Jump")) {
+			// If the jump button is pressed and the player is grounded then the player should jump.
+			if (grounded) {
+				anim.SetBool("Ground", false);
+				Jump();
+			} else if (touchingWall && !wallJumpCooldown) {
+				WallJump();
+			} else if (!doubleJump) {
 				doubleJump = true;
+				Jump();
 			}
-		}
 
-		if (!wallJumpCooldown && touchingWall && Input.GetButtonDown("Jump")) {
-			WallJump();
 		}
+	}
+
+	void Jump() {
+		rBody.AddForce(new Vector2(0, jumpForce));
 	}
 
 	void WallJump() {
 		rBody.AddForce(new Vector2(jumpPushForce, jumpForce));
+
 		wallJumpCooldown = true;
 		StartCoroutine(wallJumpCooldownTimer(wallJumpDelay));
 	}
