@@ -3,6 +3,8 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour {
 	public float maxSpeed = 10f;
+	public float wallJumpDelay = 0.1f;
+
 	bool facingRight = true;
 
 	Rigidbody2D rBody;
@@ -13,7 +15,7 @@ public class PlayerController : MonoBehaviour {
 	bool touchingWall = false;
 	public Transform groundCheck;
 	public Transform wallCheck;
-	float groundRadius = 0.2f;
+	float groundRadius = 0.1f;
 	float wallTouchRadius = 0.2f;
 	public LayerMask whatIsGround;
 	public LayerMask whatIsWall;
@@ -41,11 +43,12 @@ public class PlayerController : MonoBehaviour {
 
 		if (grounded) {
 			doubleJump = false;
+			touchingWall = false;
 		}
 
 		if (touchingWall) {
-			grounded = false;
-			doubleJump = false;
+			// grounded = false;
+			doubleJump = true;
 		}
 
 		anim.SetFloat("vSpeed", rBody.velocity.y);
@@ -78,7 +81,7 @@ public class PlayerController : MonoBehaviour {
 			}
 		}
 
-		if (touchingWall && !wallJumpCooldown && Input.GetButtonDown("Jump")) {
+		if (!wallJumpCooldown && touchingWall && Input.GetButtonDown("Jump")) {
 			WallJump();
 		}
 	}
@@ -86,14 +89,12 @@ public class PlayerController : MonoBehaviour {
 	void WallJump() {
 		rBody.AddForce(new Vector2(jumpPushForce, jumpForce));
 		wallJumpCooldown = true;
-		StartCoroutine(wallJumpCooldownTimer(1));
+		StartCoroutine(wallJumpCooldownTimer(wallJumpDelay));
 	}
 
-	// TODO: !
 	IEnumerator wallJumpCooldownTimer(float time) {
 		yield return new WaitForSeconds(time);
 
-		Debug.Log("Can walljump");
 		wallJumpCooldown = false;
 	}
 
