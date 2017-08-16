@@ -15,108 +15,22 @@ Platform assembly: C:\Users\300932437\Documents\GitHub\City_theme\City_theme_Dat
 Loading C:\Users\300932437\Documents\GitHub\City_theme\City_theme_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\300932437\Documents\GitHub\City_theme\City_theme_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\300932437\Documents\GitHub\City_theme\City_theme_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.050 seconds
+- Completed reload, in  0.024 seconds
 Platform assembly: C:\Users\300932437\Documents\GitHub\City_theme\City_theme_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\300932437\Documents\GitHub\City_theme\City_theme_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.622668 ms
+UnloadTime: 2.494798 ms
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Collider2D:INTERNAL_get_bounds (UnityEngine.Bounds&)
-  at UnityEngine.Collider2D.get_bounds () [0x00000] in <filename unknown>:0 
-  at CameraFollow.LateUpdate () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
+UnloadTime: 1.366245 ms
 
-UnloadTime: 0.559092 ms
-
-Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 245.
-Total: 1.529825 ms (FindLiveObjects: 0.027263 ms CreateObjectMapping: 0.036095 ms MarkObjects: 0.097534 ms  DeleteObjects: 1.368165 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.234619 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 527.
-Total: 0.213499 ms (FindLiveObjects: 0.022271 ms CreateObjectMapping: 0.026495 ms MarkObjects: 0.160892 ms  DeleteObjects: 0.003455 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.403108 ms
-
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 527.
-Total: 0.340217 ms (FindLiveObjects: 0.047615 ms CreateObjectMapping: 0.036863 ms MarkObjects: 0.184700 ms  DeleteObjects: 0.070270 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.226087 ms
-
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 527.
-Total: 0.335993 ms (FindLiveObjects: 0.046847 ms CreateObjectMapping: 0.039551 ms MarkObjects: 0.212347 ms  DeleteObjects: 0.036479 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.516770 ms
-
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 527.
-Total: 0.480374 ms (FindLiveObjects: 0.051070 ms CreateObjectMapping: 0.050687 ms MarkObjects: 0.318329 ms  DeleteObjects: 0.058750 ms)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Collider2D:INTERNAL_get_bounds (UnityEngine.Bounds&)
-  at UnityEngine.Collider2D.get_bounds () [0x00000] in <filename unknown>:0 
-  at CameraFollow.LateUpdate () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.843247 ms
-
-Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 245.
-Total: 2.716746 ms (FindLiveObjects: 0.028799 ms CreateObjectMapping: 0.051070 ms MarkObjects: 0.224251 ms  DeleteObjects: 2.411856 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.302586 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 527.
-Total: 0.328697 ms (FindLiveObjects: 0.047231 ms CreateObjectMapping: 0.050303 ms MarkObjects: 0.185468 ms  DeleteObjects: 0.044543 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.417700 ms
-
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 527.
-Total: 0.234235 ms (FindLiveObjects: 0.037631 ms CreateObjectMapping: 0.036095 ms MarkObjects: 0.154364 ms  DeleteObjects: 0.005759 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.138921 ms
-
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 527.
-Total: 0.394360 ms (FindLiveObjects: 0.048767 ms CreateObjectMapping: 0.042623 ms MarkObjects: 0.253435 ms  DeleteObjects: 0.049151 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.393892 ms
-
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 527.
-Total: 0.401656 ms (FindLiveObjects: 0.048767 ms CreateObjectMapping: 0.050687 ms MarkObjects: 0.253818 ms  DeleteObjects: 0.047615 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.109354 ms
-
-Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 245.
-Total: 3.218624 ms (FindLiveObjects: 0.027263 ms CreateObjectMapping: 0.051070 ms MarkObjects: 0.219643 ms  DeleteObjects: 2.919494 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.241531 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 527.
-Total: 0.401272 ms (FindLiveObjects: 0.047615 ms CreateObjectMapping: 0.051070 ms MarkObjects: 0.283002 ms  DeleteObjects: 0.018815 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.162729 ms
-
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 527.
-Total: 0.374392 ms (FindLiveObjects: 0.047615 ms CreateObjectMapping: 0.036479 ms MarkObjects: 0.234235 ms  DeleteObjects: 0.056062 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 527.
+Total: 0.499574 ms (FindLiveObjects: 0.051454 ms CreateObjectMapping: 0.051070 ms MarkObjects: 0.339833 ms  DeleteObjects: 0.056446 ms)
 
 Setting up 4 worker threads for Enlighten.
-  Thread -> id: 221c -> priority: 1 
-  Thread -> id: 2060 -> priority: 1 
-  Thread -> id: 22ac -> priority: 1 
-  Thread -> id: 2180 -> priority: 1 
+  Thread -> id: 23d0 -> priority: 1 
+  Thread -> id: 21c8 -> priority: 1 
+  Thread -> id: 20a4 -> priority: 1 
+  Thread -> id: 1da4 -> priority: 1 
