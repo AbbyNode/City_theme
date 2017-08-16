@@ -53,8 +53,10 @@ public class Player : MonoBehaviour {
 		animator.SetBool("Grounded", controller.collisions.below);
 		animator.SetBool("Running", (velocityDelta.x < -0.1 || velocityDelta.x > 0.1));
 		animator.SetBool("Jumping", (velocityDelta.y > 0));
-		animator.SetBool("TouchingWall", (controller.collisions.left || controller.collisions.right));
 
+		bool touchingWall = (controller.collisions.left || controller.collisions.right);
+		animator.SetBool("TouchingWall", touchingWall);
+		
 		if (velocity.x < 0) {
 			spriteRenderer.flipX = true;
 		} else if (velocity.x > 0) {
