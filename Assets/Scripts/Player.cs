@@ -11,6 +11,8 @@ public class Player : MonoBehaviour {
 	public float timeToJumpApex = .4f;
 	public float moveSpeed = 6;
 
+	int lives;
+
 	float accelerationTimeAirborne = .2f;
 	float accelerationTimeGrounded = .1f;
 
@@ -40,6 +42,8 @@ public class Player : MonoBehaviour {
 		controller = GetComponent<Controller2D>();
 		animator = GetComponent<Animator>();
 		spriteRenderer = GetComponent<SpriteRenderer>();
+
+		lives = initialLives;
 
 		gravity = -(2 * maxJumpHeight) / Mathf.Pow(timeToJumpApex, 2);
 		maxJumpVelocity = Mathf.Abs(gravity) * timeToJumpApex;
@@ -153,7 +157,10 @@ public class Player : MonoBehaviour {
 
 	void Hit() {
 		animator.SetBool("IsHit", true);
-		initialLives--;
+		lives--;
+		if (this.CompareTag("Player")) {
+			GameObject.Find("PlayerLives").GetComponent<TextMesh>().text = "Lives: " + lives;
+		}
 		StartCoroutine(HitTimer(0.8f));
 	}
 
@@ -162,7 +169,7 @@ public class Player : MonoBehaviour {
 
 		animator.SetBool("IsHit", false);
 
-		if (initialLives <= 0) {
+		if (lives <= 0) {
 			if (this.CompareTag("Player")) {
 				SceneManager.LoadScene("GameOverScene");
 			} else {
