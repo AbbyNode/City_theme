@@ -3,6 +3,14 @@ Okay, whew. Here we go.
   
 This is our final project for Comp391 at Centennial College.  
 Please excuse the blantant copywrongs.  
+
+## Controls
+W/A/S/D or arrow keys to move  
+Space to jump  
+Left Click to shoot shurikens  
+
+## Objective
+Beat the boss ninja guy at the end  
   
 ## Credits and links:
 [Aron](https://github.com/deruip) - The groupy. He doesn't like the "City theme" name, so I kept it all the way till the end. Thanks for putting up with me.  
