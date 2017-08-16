@@ -1,6 +1,4 @@
-# City_theme
-City theme
-
+# City theme
 Okay, whew. Here we go.  
   
 This is our final project for Comp391 at Centennial College.  
