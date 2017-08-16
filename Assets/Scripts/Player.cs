@@ -58,10 +58,6 @@ public class Player : MonoBehaviour {
 		bool touchingWall = (controller.collisions.left || controller.collisions.right);
 		animator.SetBool("TouchingWall", touchingWall);
 
-		if (touchingWall) {
-			Hit();
-		}
-
 		if (velocity.x < 0) {
 			spriteRenderer.flipX = true;
 		} else if (velocity.x > 0) {
