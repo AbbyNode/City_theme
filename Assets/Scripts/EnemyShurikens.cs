@@ -32,6 +32,7 @@ public class EnemyShurikens : MonoBehaviour {
 		Vector2 myPos = new Vector2(transform.position.x, transform.position.y);
 		Vector2 direction = playerPos - myPos;
 		direction.Normalize();
+		direction.y += 0.2f;
 		GameObject shurikenInst = (GameObject)Instantiate(shurikenObj, myPos, Quaternion.identity);
 		shurikenInst.GetComponent<Rigidbody2D>().velocity = direction * shurikenSpeed;
 
