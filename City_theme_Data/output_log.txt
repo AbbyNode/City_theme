@@ -1,0 +1,266 @@
+Initialize engine version: 5.6.1f1 (2860b30f0b54)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: ATI FirePro V4800 (ID=0x68c8)
+    Vendor:   ATI
+    VRAM:     1006 MB
+    Driver:   8.911.3.1000
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\300932437\Documents\GitHub\City_theme\City_theme_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\300932437\Documents\GitHub\City_theme\City_theme_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\300932437\Documents\GitHub\City_theme\City_theme_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\300932437\Documents\GitHub\City_theme\City_theme_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\300932437\Documents\GitHub\City_theme\City_theme_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\300932437\Documents\GitHub\City_theme\City_theme_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\300932437\Documents\GitHub\City_theme\City_theme_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\300932437\Documents\GitHub\City_theme\City_theme_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.022 seconds
+Platform assembly: C:\Users\300932437\Documents\GitHub\City_theme\City_theme_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\300932437\Documents\GitHub\City_theme\City_theme_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.370001 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.297126 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 527.
+Total: 0.480374 ms (FindLiveObjects: 0.048383 ms CreateObjectMapping: 0.047615 ms MarkObjects: 0.324089 ms  DeleteObjects: 0.059518 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Collider2D:INTERNAL_get_bounds (UnityEngine.Bounds&)
+  at UnityEngine.Collider2D.get_bounds () [0x00000] in <filename unknown>:0 
+  at CameraFollow.LateUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 0.671986 ms
+
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 245.
+Total: 1.881178 ms (FindLiveObjects: 0.026879 ms CreateObjectMapping: 0.032639 ms MarkObjects: 0.163580 ms  DeleteObjects: 1.657311 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.276858 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 527.
+Total: 0.226555 ms (FindLiveObjects: 0.023039 ms CreateObjectMapping: 0.021887 ms MarkObjects: 0.173564 ms  DeleteObjects: 0.007679 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.161193 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 527.
+Total: 0.386296 ms (FindLiveObjects: 0.036095 ms CreateObjectMapping: 0.041471 ms MarkObjects: 0.260346 ms  DeleteObjects: 0.047999 ms)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Collider2D:INTERNAL_get_bounds (UnityEngine.Bounds&)
+  at UnityEngine.Collider2D.get_bounds () [0x00000] in <filename unknown>:0 
+  at CameraFollow.LateUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.877038 ms
+
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 245.
+Total: 2.793160 ms (FindLiveObjects: 0.026495 ms CreateObjectMapping: 0.051070 ms MarkObjects: 0.167420 ms  DeleteObjects: 2.547405 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.306425 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 527.
+Total: 0.311033 ms (FindLiveObjects: 0.047999 ms CreateObjectMapping: 0.044159 ms MarkObjects: 0.176252 ms  DeleteObjects: 0.041855 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.421155 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 527.
+Total: 0.466934 ms (FindLiveObjects: 0.047999 ms CreateObjectMapping: 0.050303 ms MarkObjects: 0.308729 ms  DeleteObjects: 0.058750 ms)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Collider2D:INTERNAL_get_bounds (UnityEngine.Bounds&)
+  at UnityEngine.Collider2D.get_bounds () [0x00000] in <filename unknown>:0 
+  at CameraFollow.LateUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.846703 ms
+
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 245.
+Total: 2.778953 ms (FindLiveObjects: 0.025343 ms CreateObjectMapping: 0.047615 ms MarkObjects: 0.117117 ms  DeleteObjects: 2.588492 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.299898 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 527.
+Total: 0.352889 ms (FindLiveObjects: 0.048383 ms CreateObjectMapping: 0.052606 ms MarkObjects: 0.204283 ms  DeleteObjects: 0.046847 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.079018 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 527.
+Total: 0.487286 ms (FindLiveObjects: 0.053758 ms CreateObjectMapping: 0.051070 ms MarkObjects: 0.326009 ms  DeleteObjects: 0.054910 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.988012 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 527.
+Total: 0.397048 ms (FindLiveObjects: 0.046463 ms CreateObjectMapping: 0.036479 ms MarkObjects: 0.257658 ms  DeleteObjects: 0.055678 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.808688 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 527.
+Total: 0.397048 ms (FindLiveObjects: 0.047999 ms CreateObjectMapping: 0.039551 ms MarkObjects: 0.250363 ms  DeleteObjects: 0.058366 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.131241 ms
+
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 245.
+Total: 3.434812 ms (FindLiveObjects: 0.026495 ms CreateObjectMapping: 0.050687 ms MarkObjects: 0.203899 ms  DeleteObjects: 3.153345 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.241147 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 527.
+Total: 0.385144 ms (FindLiveObjects: 0.046463 ms CreateObjectMapping: 0.053374 ms MarkObjects: 0.241147 ms  DeleteObjects: 0.043391 ms)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Collider2D:INTERNAL_get_bounds (UnityEngine.Bounds&)
+  at UnityEngine.Collider2D.get_bounds () [0x00000] in <filename unknown>:0 
+  at CameraFollow.LateUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.222631 ms
+
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 245.
+Total: 3.435196 ms (FindLiveObjects: 0.026495 ms CreateObjectMapping: 0.050687 ms MarkObjects: 0.153980 ms  DeleteObjects: 3.202496 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.342521 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 527.
+Total: 0.266874 ms (FindLiveObjects: 0.048383 ms CreateObjectMapping: 0.038399 ms MarkObjects: 0.132477 ms  DeleteObjects: 0.046847 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.504098 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 527.
+Total: 0.399736 ms (FindLiveObjects: 0.046847 ms CreateObjectMapping: 0.036095 ms MarkObjects: 0.261114 ms  DeleteObjects: 0.055294 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.114730 ms
+
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 245.
+Total: 3.456315 ms (FindLiveObjects: 0.026111 ms CreateObjectMapping: 0.043775 ms MarkObjects: 0.223099 ms  DeleteObjects: 3.162945 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.226939 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 527.
+Total: 0.236539 ms (FindLiveObjects: 0.024575 ms CreateObjectMapping: 0.024191 ms MarkObjects: 0.183932 ms  DeleteObjects: 0.003839 ms)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Collider2D:INTERNAL_get_bounds (UnityEngine.Bounds&)
+  at UnityEngine.Collider2D.get_bounds () [0x00000] in <filename unknown>:0 
+  at CameraFollow.LateUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.146601 ms
+
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 245.
+Total: 3.552697 ms (FindLiveObjects: 0.027647 ms CreateObjectMapping: 0.046079 ms MarkObjects: 0.196604 ms  DeleteObjects: 3.281983 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.241147 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 527.
+Total: 0.364408 ms (FindLiveObjects: 0.047999 ms CreateObjectMapping: 0.050303 ms MarkObjects: 0.218875 ms  DeleteObjects: 0.046463 ms)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Collider2D:INTERNAL_get_bounds (UnityEngine.Bounds&)
+  at UnityEngine.Collider2D.get_bounds () [0x00000] in <filename unknown>:0 
+  at CameraFollow.LateUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.040235 ms
+
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 245.
+Total: 3.527738 ms (FindLiveObjects: 0.027647 ms CreateObjectMapping: 0.050303 ms MarkObjects: 0.160508 ms  DeleteObjects: 3.288511 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.389752 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 527.
+Total: 0.341753 ms (FindLiveObjects: 0.046847 ms CreateObjectMapping: 0.051454 ms MarkObjects: 0.201980 ms  DeleteObjects: 0.041087 ms)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Collider2D:INTERNAL_get_bounds (UnityEngine.Bounds&)
+  at UnityEngine.Collider2D.get_bounds () [0x00000] in <filename unknown>:0 
+  at CameraFollow.LateUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.290982 ms
+
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 245.
+Total: 3.414844 ms (FindLiveObjects: 0.027647 ms CreateObjectMapping: 0.051070 ms MarkObjects: 0.186236 ms  DeleteObjects: 3.149505 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.268794 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 527.
+Total: 0.250747 ms (FindLiveObjects: 0.047999 ms CreateObjectMapping: 0.025727 ms MarkObjects: 0.135165 ms  DeleteObjects: 0.041471 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.133545 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 527.
+Total: 0.410487 ms (FindLiveObjects: 0.047231 ms CreateObjectMapping: 0.046079 ms MarkObjects: 0.260730 ms  DeleteObjects: 0.056062 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.229927 ms
+
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 245.
+Total: 3.503162 ms (FindLiveObjects: 0.026111 ms CreateObjectMapping: 0.050687 ms MarkObjects: 0.200828 ms  DeleteObjects: 3.224768 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.296058 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 527.
+Total: 0.268794 ms (FindLiveObjects: 0.047999 ms CreateObjectMapping: 0.046463 ms MarkObjects: 0.149757 ms  DeleteObjects: 0.024191 ms)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Collider2D:INTERNAL_get_bounds (UnityEngine.Bounds&)
+  at UnityEngine.Collider2D.get_bounds () [0x00000] in <filename unknown>:0 
+  at CameraFollow.LateUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.879342 ms
+
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 245.
+Total: 3.652536 ms (FindLiveObjects: 0.026111 ms CreateObjectMapping: 0.050303 ms MarkObjects: 0.225787 ms  DeleteObjects: 3.349565 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.399352 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 527.
+Total: 0.413943 ms (FindLiveObjects: 0.046847 ms CreateObjectMapping: 0.047999 ms MarkObjects: 0.277626 ms  DeleteObjects: 0.041087 ms)
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 1ec0 -> priority: 1 
+  Thread -> id: 1208 -> priority: 1 
+  Thread -> id: 324 -> priority: 1 
+  Thread -> id: 22b8 -> priority: 1 
