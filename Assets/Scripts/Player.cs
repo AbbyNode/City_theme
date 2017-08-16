@@ -49,14 +49,15 @@ public class Player : MonoBehaviour {
 
 		Vector3 velocityDelta = velocity * Time.deltaTime;
 		controller.Move(velocityDelta, directionalInput);
-		
+
 		animator.SetBool("Grounded", controller.collisions.below);
 		animator.SetBool("Running", (velocityDelta.x < -0.1 || velocityDelta.x > 0.1));
 		animator.SetBool("Jumping", (velocityDelta.y > 0));
+		animator.SetBool("Falling", (velocityDelta.y < -0.1));
 
 		bool touchingWall = (controller.collisions.left || controller.collisions.right);
 		animator.SetBool("TouchingWall", touchingWall);
-		
+
 		if (velocity.x < 0) {
 			spriteRenderer.flipX = true;
 		} else if (velocity.x > 0) {
