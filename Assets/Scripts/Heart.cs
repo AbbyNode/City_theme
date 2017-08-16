@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Heart : MonoBehaviour {
 	private void OnTriggerEnter2D(Collider2D collision) {
-		GameObject.Find("Player").GetComponent<Player>().AddLife();
-		Destroy(this.gameObject);
+		if (collision.gameObject.CompareTag("Player")) {
+			GameObject.Find("Player").GetComponent<Player>().AddLife();
+			Destroy(this.gameObject);
+		}
 	}
 }

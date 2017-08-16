@@ -177,6 +177,8 @@ public class Player : MonoBehaviour {
 		if (lives <= 0) {
 			if (this.CompareTag("Player")) {
 				SceneManager.LoadScene("GameOverScene");
+			} else if (this.CompareTag("Boss")) {
+				SceneManager.LoadScene("WinScene");
 			} else {
 				Destroy(this.gameObject);
 			}
