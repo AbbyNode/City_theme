@@ -164,6 +164,11 @@ public class Player : MonoBehaviour {
 		StartCoroutine(HitTimer(0.8f));
 	}
 
+	public void AddLife() {
+		lives++;
+		GameObject.Find("PlayerLives").GetComponent<TextMesh>().text = "Lives: " + lives;
+	}
+
 	public IEnumerator HitTimer(float seconds) {
 		yield return new WaitForSeconds(seconds);
 
