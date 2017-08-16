@@ -58,6 +58,10 @@ public class Player : MonoBehaviour {
 		bool touchingWall = (controller.collisions.left || controller.collisions.right);
 		animator.SetBool("TouchingWall", touchingWall);
 
+		if (touchingWall) {
+			Hit();
+		}
+
 		if (velocity.x < 0) {
 			spriteRenderer.flipX = true;
 		} else if (velocity.x > 0) {
@@ -138,5 +142,16 @@ public class Player : MonoBehaviour {
 		float targetVelocityX = directionalInput.x * moveSpeed;
 		velocity.x = Mathf.SmoothDamp(velocity.x, targetVelocityX, ref velocityXSmoothing, (controller.collisions.below) ? accelerationTimeGrounded : accelerationTimeAirborne);
 		velocity.y += gravity * Time.deltaTime;
+	}
+
+	void Hit() {
+		animator.SetBool("IsHit", true);
+		StartCoroutine(HitTimer(1f));
+	}
+
+	public IEnumerator HitTimer(float seconds) {
+		yield return new WaitForSeconds(seconds);
+
+		animator.SetBool("IsHit", false);
 	}
 }
