@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Shuriken : MonoBehaviour
+public class Shuriken_1 : MonoBehaviour
 {
     public float fireRate = 0;
     public float Damage = 10;
