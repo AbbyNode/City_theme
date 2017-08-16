@@ -52,7 +52,18 @@ public class Player : MonoBehaviour {
 				velocity.y = 0;
 			}
 		}
-	}
+        GetComponent<Animator>().SetFloat("DirX", directionalInput.x);
+        if (directionalInput.x < -0.1)
+        {
+            GetComponent<SpriteRenderer>().flipX = true;    
+        }
+        else if (directionalInput.x > 0.1)
+        {
+            GetComponent<SpriteRenderer>().flipX = false;
+        }
+        GetComponent<Animator>().SetFloat("DirY", velocity.y);
+        GetComponent<Animator>().SetBool("Grounded", controller.collisions.below);
+    }
 
 	public void SetDirectionalInput (Vector2 input) {
 		directionalInput = input;

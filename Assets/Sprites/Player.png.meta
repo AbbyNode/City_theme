@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 2fbaccc6fd5f16447a3d34ba7fc5a880
-timeCreated: 1502836104
+timeCreated: 1502836699
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -63,6 +63,65 @@ TextureImporter:
     21300112: stock_ninja_3_56
     21300114: stock_ninja_3_57
     21300116: stock_ninja_3_58
+    21300118: Player_0
+    21300120: Player_1
+    21300122: Player_2
+    21300124: Player_3
+    21300126: Player_4
+    21300128: Player_5
+    21300130: Player_6
+    21300132: Player_7
+    21300134: Player_8
+    21300136: Player_9
+    21300138: Player_10
+    21300140: Player_11
+    21300142: Player_12
+    21300144: Player_13
+    21300146: Player_14
+    21300148: Player_15
+    21300150: Player_16
+    21300152: Player_17
+    21300154: Player_18
+    21300156: Player_19
+    21300158: Player_20
+    21300160: Player_21
+    21300162: Player_22
+    21300164: Player_23
+    21300166: Player_24
+    21300168: Player_25
+    21300170: Player_26
+    21300172: Player_27
+    21300174: Player_28
+    21300176: Player_29
+    21300178: Player_30
+    21300180: Player_31
+    21300182: Player_32
+    21300184: Player_33
+    21300186: Player_34
+    21300188: Player_35
+    21300190: Player_36
+    21300192: Player_37
+    21300194: Player_38
+    21300196: Player_39
+    21300198: Player_40
+    21300200: Player_41
+    21300202: Player_42
+    21300204: Player_43
+    21300206: Player_44
+    21300208: Player_45
+    21300210: Player_46
+    21300212: Player_47
+    21300214: Player_48
+    21300216: Player_49
+    21300218: Player_50
+    21300220: Player_51
+    21300222: Player_52
+    21300224: Player_53
+    21300226: Player_54
+    21300228: Player_55
+    21300230: Player_56
+    21300232: Player_57
+    21300234: Player_58
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -129,7 +188,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: stock_ninja_3_0
+      name: Player_0
       rect:
         serializedVersion: 2
         x: 52
@@ -142,7 +201,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_1
+      name: Player_1
       rect:
         serializedVersion: 2
         x: 152
@@ -155,7 +214,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_2
+      name: Player_2
       rect:
         serializedVersion: 2
         x: 248
@@ -168,7 +227,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_3
+      name: Player_3
       rect:
         serializedVersion: 2
         x: 340
@@ -181,7 +240,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_4
+      name: Player_4
       rect:
         serializedVersion: 2
         x: 462
@@ -194,7 +253,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_5
+      name: Player_5
       rect:
         serializedVersion: 2
         x: 573
@@ -207,7 +266,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_6
+      name: Player_6
       rect:
         serializedVersion: 2
         x: 676
@@ -220,7 +279,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_8
+      name: Player_8
       rect:
         serializedVersion: 2
         x: 811
@@ -233,7 +292,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_9
+      name: Player_9
       rect:
         serializedVersion: 2
         x: 994
@@ -246,7 +305,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_10
+      name: Player_10
       rect:
         serializedVersion: 2
         x: 1182
@@ -259,7 +318,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_23
+      name: Player_23
       rect:
         serializedVersion: 2
         x: 52
@@ -272,7 +331,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_24
+      name: Player_24
       rect:
         serializedVersion: 2
         x: 206
@@ -285,7 +344,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_25
+      name: Player_25
       rect:
         serializedVersion: 2
         x: 356
@@ -298,7 +357,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_26
+      name: Player_26
       rect:
         serializedVersion: 2
         x: 514
@@ -311,7 +370,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_27
+      name: Player_27
       rect:
         serializedVersion: 2
         x: 664
@@ -324,7 +383,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_28
+      name: Player_28
       rect:
         serializedVersion: 2
         x: 820
@@ -337,7 +396,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_30
+      name: Player_30
       rect:
         serializedVersion: 2
         x: 1118
@@ -350,25 +409,25 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_32
+      name: Player_32
       rect:
         serializedVersion: 2
         x: 1000
         y: 484
-        width: 99
-        height: 145
+        width: 102
+        height: 144
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_34
+      name: Player_34
       rect:
         serializedVersion: 2
         x: 1240
         y: 484
-        width: 99
+        width: 97
         height: 142
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -376,7 +435,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_35
+      name: Player_35
       rect:
         serializedVersion: 2
         x: 51
@@ -389,7 +448,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_36
+      name: Player_36
       rect:
         serializedVersion: 2
         x: 152
@@ -402,7 +461,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_38
+      name: Player_38
       rect:
         serializedVersion: 2
         x: 310
@@ -415,7 +474,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_39
+      name: Player_39
       rect:
         serializedVersion: 2
         x: 447
@@ -428,7 +487,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_40
+      name: Player_40
       rect:
         serializedVersion: 2
         x: 590
@@ -441,7 +500,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_41
+      name: Player_41
       rect:
         serializedVersion: 2
         x: 712
@@ -454,7 +513,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_42
+      name: Player_42
       rect:
         serializedVersion: 2
         x: 856
@@ -467,7 +526,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_43
+      name: Player_43
       rect:
         serializedVersion: 2
         x: 982
@@ -480,7 +539,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_44
+      name: Player_44
       rect:
         serializedVersion: 2
         x: 1083
@@ -493,7 +552,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_45
+      name: Player_45
       rect:
         serializedVersion: 2
         x: 1240
@@ -506,7 +565,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_47
+      name: Player_47
       rect:
         serializedVersion: 2
         x: 24
@@ -519,7 +578,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_48
+      name: Player_48
       rect:
         serializedVersion: 2
         x: 131
@@ -532,7 +591,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_49
+      name: Player_49
       rect:
         serializedVersion: 2
         x: 259
@@ -545,7 +604,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_50
+      name: Player_50
       rect:
         serializedVersion: 2
         x: 395
@@ -558,7 +617,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_51
+      name: Player_51
       rect:
         serializedVersion: 2
         x: 530
@@ -571,7 +630,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_52
+      name: Player_52
       rect:
         serializedVersion: 2
         x: 644
@@ -584,7 +643,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_53
+      name: Player_53
       rect:
         serializedVersion: 2
         x: 786
@@ -597,7 +656,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_54
+      name: Player_54
       rect:
         serializedVersion: 2
         x: 916
@@ -610,7 +669,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_55
+      name: Player_55
       rect:
         serializedVersion: 2
         x: 1063
@@ -623,7 +682,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: stock_ninja_3_57
+      name: Player_57
       rect:
         serializedVersion: 2
         x: 1220
