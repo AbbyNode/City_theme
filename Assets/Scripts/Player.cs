@@ -150,12 +150,19 @@ public class Player : MonoBehaviour {
 
 	void Hit() {
 		animator.SetBool("IsHit", true);
-		StartCoroutine(HitTimer(1f));
+		StartCoroutine(HitTimer(0.6f));
 	}
 
 	public IEnumerator HitTimer(float seconds) {
 		yield return new WaitForSeconds(seconds);
 
 		animator.SetBool("IsHit", false);
+	}
+
+
+	private void OnCollisionEnter2D(Collision2D collision) {
+		if (collision.gameObject.CompareTag("Shuriken")) {
+			Hit();
+		}
 	}
 }
