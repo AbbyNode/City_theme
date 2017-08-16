@@ -151,6 +151,8 @@ public class Player : MonoBehaviour {
 	void Hit() {
 		animator.SetBool("IsHit", true);
 		StartCoroutine(HitTimer(0.6f));
+
+		// TODO: Decrease health
 	}
 
 	public IEnumerator HitTimer(float seconds) {
