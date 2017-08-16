@@ -1,13 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Controller2D))]
 public class Player : MonoBehaviour {
+	public int initialLives = 1;
 
 	public float maxJumpHeight = 4;
 	public float minJumpHeight = 1;
 	public float timeToJumpApex = .4f;
 	public float moveSpeed = 6;
+
 	float accelerationTimeAirborne = .2f;
 	float accelerationTimeGrounded = .1f;
 
@@ -150,15 +153,22 @@ public class Player : MonoBehaviour {
 
 	void Hit() {
 		animator.SetBool("IsHit", true);
-		StartCoroutine(HitTimer(0.6f));
-
-		// TODO: Decrease health
+		initialLives--;
+		StartCoroutine(HitTimer(0.8f));
 	}
 
 	public IEnumerator HitTimer(float seconds) {
 		yield return new WaitForSeconds(seconds);
 
 		animator.SetBool("IsHit", false);
+
+		if (initialLives <= 0) {
+			if (this.CompareTag("Player")) {
+				SceneManager.LoadScene("GameOverScene");
+			} else {
+				Destroy(this.gameObject);
+			}
+		}
 	}
 
 
