@@ -108,6 +108,14 @@ public class Player : MonoBehaviour {
 		}
 	}
 
+	public void OnDuckInputDown() {
+		animator.SetBool("IsDucking", true);
+	}
+
+	public void OnDuckInputUp() {
+		animator.SetBool("IsDucking", false);
+	}
+
 
 	void HandleWallSliding() {
 		wallDirX = (controller.collisions.left) ? -1 : 1;

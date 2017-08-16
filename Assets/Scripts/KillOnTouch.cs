@@ -16,5 +16,9 @@ public class KillOnTouch : MonoBehaviour {
 		if (gameObject.CompareTag("Player")) {
 			SceneManager.LoadScene("GameOverScene");
 		}
+
+		if (!gameObject.CompareTag("Obstacle")) {
+			Destroy(gameObject);
+		}
 	}
 }

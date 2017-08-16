@@ -5,22 +5,25 @@ using UnityEngine;
 public class ShurikenShooter : MonoBehaviour {
 	public Transform shurikenSpawn;
 	public GameObject shurikenObj;
-	public float shurikenSpeed;
-	public float shootDelay;
+	public float shurikenSpeed = 20;
+	public float shootDelay = 0.2f;
+	
+	private float accumulator = 100;
 
-	Collider2D collider;
+	Collider2D selfCollider2D;
 	Animator animator;
 
 	void Start() {
-		collider = GetComponent<Collider2D>();
+		selfCollider2D = GetComponent<Collider2D>();
 		animator = GetComponent<Animator>();
 	}
 
 	void Update() {
-		if (Input.GetButton("Fire1")) {
+		accumulator += Time.deltaTime;
+
+		if (Input.GetButtonDown("Fire1") && accumulator > shootDelay) {
 			Shoot();
-			//			GameObject shurienInst = Instantiate(shuriken, shurikenSpawn.position, shurikenSpawn.rotation);
-			//		Physics2D.IgnoreCollision(collider, shurienInst.GetComponent<Collider2D>());
+			accumulator = 0.0f;
 		}
 	}
 
@@ -29,9 +32,9 @@ public class ShurikenShooter : MonoBehaviour {
 		Vector2 myPos = new Vector2(transform.position.x, transform.position.y);
 		Vector2 direction = cursorInWorldPos - myPos;
 		direction.Normalize();
-		GameObject shurikeInstn = (GameObject)Instantiate(shurikenObj, myPos, Quaternion.identity);
-		shurikeInstn.GetComponent<Rigidbody2D>().velocity = direction * shurikenSpeed;
+		GameObject shurikenInst = (GameObject)Instantiate(shurikenObj, myPos, Quaternion.identity);
+		shurikenInst.GetComponent<Rigidbody2D>().velocity = direction * shurikenSpeed;
 
-		Debug.Log("ok");
+		Physics2D.IgnoreCollision(selfCollider2D, shurikenInst.GetComponent<Collider2D>());
 	}
 }
