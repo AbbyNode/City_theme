@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-[RequireComponent (typeof (Controller2D))]
+[RequireComponent(typeof(Controller2D))]
 public class Player : MonoBehaviour {
 
 	public float maxJumpHeight = 4;
@@ -26,24 +26,40 @@ public class Player : MonoBehaviour {
 	float velocityXSmoothing;
 
 	Controller2D controller;
+	Animator animator;
+	SpriteRenderer spriteRenderer;
 
 	Vector2 directionalInput;
 	bool wallSliding;
 	int wallDirX;
 
 	void Start() {
-		controller = GetComponent<Controller2D> ();
+		controller = GetComponent<Controller2D>();
+		animator = GetComponent<Animator>();
+		spriteRenderer = GetComponent<SpriteRenderer>();
 
-		gravity = -(2 * maxJumpHeight) / Mathf.Pow (timeToJumpApex, 2);
+		gravity = -(2 * maxJumpHeight) / Mathf.Pow(timeToJumpApex, 2);
 		maxJumpVelocity = Mathf.Abs(gravity) * timeToJumpApex;
-		minJumpVelocity = Mathf.Sqrt (2 * Mathf.Abs (gravity) * minJumpHeight);
+		minJumpVelocity = Mathf.Sqrt(2 * Mathf.Abs(gravity) * minJumpHeight);
 	}
 
 	void Update() {
-		CalculateVelocity ();
-		HandleWallSliding ();
+		CalculateVelocity();
+		HandleWallSliding();
 
-		controller.Move (velocity * Time.deltaTime, directionalInput);
+		Vector3 velocityDelta = velocity * Time.deltaTime;
+		controller.Move(velocityDelta, directionalInput);
+		
+		animator.SetBool("Grounded", controller.collisions.below);
+		animator.SetBool("Running", (velocityDelta.x < -0.1 || velocityDelta.x > 0.1));
+		animator.SetBool("Jumping", (velocityDelta.y > 0));
+		animator.SetBool("TouchingWall", (controller.collisions.left || controller.collisions.right));
+
+		if (velocity.x < 0) {
+			spriteRenderer.flipX = true;
+		} else if (velocity.x > 0) {
+			spriteRenderer.flipX = false;
+		}
 
 		if (controller.collisions.above || controller.collisions.below) {
 			if (controller.collisions.slidingDownMaxSlope) {
@@ -52,20 +68,9 @@ public class Player : MonoBehaviour {
 				velocity.y = 0;
 			}
 		}
-        GetComponent<Animator>().SetFloat("DirX", directionalInput.x);
-        if (directionalInput.x < -0.1)
-        {
-            GetComponent<SpriteRenderer>().flipX = true;    
-        }
-        else if (directionalInput.x > 0.1)
-        {
-            GetComponent<SpriteRenderer>().flipX = false;
-        }
-        GetComponent<Animator>().SetFloat("DirY", velocity.y);
-        GetComponent<Animator>().SetBool("Grounded", controller.collisions.below);
-    }
+	}
 
-	public void SetDirectionalInput (Vector2 input) {
+	public void SetDirectionalInput(Vector2 input) {
 		directionalInput = input;
 	}
 
@@ -74,19 +79,17 @@ public class Player : MonoBehaviour {
 			if (wallDirX == directionalInput.x) {
 				velocity.x = -wallDirX * wallJumpClimb.x;
 				velocity.y = wallJumpClimb.y;
-			}
-			else if (directionalInput.x == 0) {
+			} else if (directionalInput.x == 0) {
 				velocity.x = -wallDirX * wallJumpOff.x;
 				velocity.y = wallJumpOff.y;
-			}
-			else {
+			} else {
 				velocity.x = -wallDirX * wallLeap.x;
 				velocity.y = wallLeap.y;
 			}
 		}
 		if (controller.collisions.below) {
 			if (controller.collisions.slidingDownMaxSlope) {
-				if (directionalInput.x != -Mathf.Sign (controller.collisions.slopeNormal.x)) { // not jumping against max slope
+				if (directionalInput.x != -Mathf.Sign(controller.collisions.slopeNormal.x)) { // not jumping against max slope
 					velocity.y = maxJumpVelocity * controller.collisions.slopeNormal.y;
 					velocity.x = maxJumpVelocity * controller.collisions.slopeNormal.x;
 				}
@@ -101,7 +104,7 @@ public class Player : MonoBehaviour {
 			velocity.y = minJumpVelocity;
 		}
 	}
-		
+
 
 	void HandleWallSliding() {
 		wallDirX = (controller.collisions.left) ? -1 : 1;
@@ -119,22 +122,18 @@ public class Player : MonoBehaviour {
 
 				if (directionalInput.x != wallDirX && directionalInput.x != 0) {
 					timeToWallUnstick -= Time.deltaTime;
-				}
-				else {
+				} else {
 					timeToWallUnstick = wallStickTime;
 				}
-			}
-			else {
+			} else {
 				timeToWallUnstick = wallStickTime;
 			}
-
 		}
-
 	}
 
 	void CalculateVelocity() {
 		float targetVelocityX = directionalInput.x * moveSpeed;
-		velocity.x = Mathf.SmoothDamp (velocity.x, targetVelocityX, ref velocityXSmoothing, (controller.collisions.below)?accelerationTimeGrounded:accelerationTimeAirborne);
+		velocity.x = Mathf.SmoothDamp(velocity.x, targetVelocityX, ref velocityXSmoothing, (controller.collisions.below) ? accelerationTimeGrounded : accelerationTimeAirborne);
 		velocity.y += gravity * Time.deltaTime;
 	}
 }
