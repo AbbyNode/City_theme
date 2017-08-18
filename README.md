@@ -5,8 +5,7 @@ This is our final project for Comp391 at Centennial College.
 Please excuse the blantant copywrongs.  
 
 ## Controls
-W/A/S/D or arrow keys to move  
-Space to jump  
+W/A/S/D or arrow keys to move and jump  
 Left Click to shoot shurikens  
 
 ## Objective
