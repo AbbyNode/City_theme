@@ -38,6 +38,9 @@ public class Player : MonoBehaviour {
 	bool wallSliding;
 	int wallDirX;
 
+	TextMesh livesUI;
+	SpriteRenderer redTint;
+
 	void Start() {
 		controller = GetComponent<Controller2D>();
 		animator = GetComponent<Animator>();
@@ -48,6 +51,9 @@ public class Player : MonoBehaviour {
 		gravity = -(2 * maxJumpHeight) / Mathf.Pow(timeToJumpApex, 2);
 		maxJumpVelocity = Mathf.Abs(gravity) * timeToJumpApex;
 		minJumpVelocity = Mathf.Sqrt(2 * Mathf.Abs(gravity) * minJumpHeight);
+
+		livesUI = GameObject.Find("PlayerLives").GetComponent<TextMesh>();
+		redTint = GameObject.Find("RedTint").GetComponent<SpriteRenderer>();
 	}
 
 	void Update() {
@@ -159,14 +165,17 @@ public class Player : MonoBehaviour {
 		animator.SetBool("IsHit", true);
 		lives--;
 		if (this.CompareTag("Player")) {
-			GameObject.Find("PlayerLives").GetComponent<TextMesh>().text = "Lives: " + lives;
+			livesUI.text = "Lives: " + lives;
 		}
+
+		redTint.color = new Color(1, 1, 1, 1);
+
 		StartCoroutine(HitTimer(0.8f));
 	}
 
 	public void AddLife() {
 		lives++;
-		GameObject.Find("PlayerLives").GetComponent<TextMesh>().text = "Lives: " + lives;
+		livesUI.text = "Lives: " + lives;
 	}
 
 	public int GetLives() {
@@ -187,6 +196,8 @@ public class Player : MonoBehaviour {
 				Destroy(this.gameObject);
 			}
 		}
+
+		redTint.color = new Color(1, 1, 1, 0);
 	}
 
 
