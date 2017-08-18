@@ -166,9 +166,8 @@ public class Player : MonoBehaviour {
 		lives--;
 		if (this.CompareTag("Player")) {
 			livesUI.text = "Lives: " + lives;
+			redTint.color = new Color(1, 1, 1, 1);
 		}
-
-		redTint.color = new Color(1, 1, 1, 1);
 
 		StartCoroutine(HitTimer(0.8f));
 	}
@@ -187,6 +186,10 @@ public class Player : MonoBehaviour {
 
 		animator.SetBool("IsHit", false);
 
+		if (this.CompareTag("Player")) {
+			redTint.color = new Color(1, 1, 1, 0);
+		}
+
 		if (lives <= 0) {
 			if (this.CompareTag("Player")) {
 				SceneManager.LoadScene("GameOverScene");
@@ -196,8 +199,6 @@ public class Player : MonoBehaviour {
 				Destroy(this.gameObject);
 			}
 		}
-
-		redTint.color = new Color(1, 1, 1, 0);
 	}
 
 
