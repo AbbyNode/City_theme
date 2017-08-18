@@ -12,18 +12,22 @@ public class EnemyShurikens : MonoBehaviour {
 
 	SpriteRenderer spriteRenderer;
 	Collider2D selfCollider2D;
+	Player player;
 
 	void Start() {
 		spriteRenderer = GetComponent<SpriteRenderer>();
 		selfCollider2D = GetComponent<Collider2D>();
+		player = GetComponent<Player>();
 	}
 
 	void Update() {
 		accumulator += Time.deltaTime;
 
 		if (accumulator > shootDelay) {
-			Shoot();
-			accumulator = 0.0f;
+			if (player.GetLives() > 0) {
+				Shoot();
+				accumulator = 0.0f;
+			}
 		}
 	}
 
