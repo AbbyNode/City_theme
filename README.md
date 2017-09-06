@@ -14,7 +14,7 @@ Beat the boss ninja guy at the end
 ## Credits and links:
 [Aron](https://github.com/deruip) - The groupy. He doesn't like the "City theme" name, so I kept it all the way till the end. Thanks for putting up with me.  
 
-[SebLague on Github](https://github.com/SebLague) - Great guy. Or Girl. Created a really cool platformer thing. Check it out.  
+[SebLague on Github](https://github.com/SebLague) - Great guy. Created a really cool platformer thing. Check it out.  
 Code used from [SebLague's 2D Platformer](https://github.com/SebLague/2DPlatformer-Tutorial), see copyright.
 
 [Adrian Von Ziegler](https://www.youtube.com/watch?v=KYMecO7zZ1g) - Instrumental music yay.  
